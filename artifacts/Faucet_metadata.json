@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"example_code.sol": "Faucet"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"example_code.sol": {
+			"keccak256": "0xac8c25e46165daf723ec64c770f32189b585f73059f3197c4fe457759620e56e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://96e9ebb9b7dc3fe427c6e3bb20f3096b509e5690b580b7fcfd5ae74832c173cb",
+				"dweb:/ipfs/QmfCowPnvwCNe87S8syrL3AZrdVkQfoW5XGhLyyW38Sh2M"
+			]
+		}
+	},
+	"version": 1
+}
